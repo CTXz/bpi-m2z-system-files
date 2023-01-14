@@ -1,3 +1,3 @@
-BOARD=bpi-m3
-BOARD_AUTO=bpi-m3
+BOARD=bpi-m2z
+BOARD_AUTO=bpi-m2z
 BOARD_OLD=bpi-m64
