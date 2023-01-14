@@ -6,7 +6,7 @@ target the Banana Pi M2 Zero.
 
 The original files can be found [here](https://github.com/BPI-SINOVOIP/BPI-files/tree/master/others/bpi-service), and as of now the only change lies in the specified board in the `/var/lib/bananapi/board.sh` file.
 
-The directory contains various configuration files and scripts. Based on the file names, it appears that the files are used to configure various system settings such as network interfaces, display settings, and power management. The files in the "etc" directory contain configuration files for various services and programs. The files in the "usr/local/bin" directory contain scripts that likely perform various system tasks such as resetting Bluetooth, patching the Bluetooth firmware, and enabling the Xserver.
+The directory contains various configuration files and scripts. Based on the file names, it appears that the files are used to configure various system settings such as network interfaces, display settings, and power management.
 
 The primary reason for me to upload these files is, because they're also required to get GPIO access working.
 
