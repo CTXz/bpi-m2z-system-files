@@ -4,7 +4,7 @@ The following repository contains some linux configs, libs and other system file
 for BPI series single-board computers and has been slighlty modfied to specifically
 target the Banana Pi M2 Zero.
 
-The original files can be found [here](https://github.com/BPI-SINOVOIP/BPI-files/tree/master/others/bpi-service), and as of now the only change lies in the specified board in the `/var/lib/bananapi/board.sh`.
+The original files can be found [here](https://github.com/BPI-SINOVOIP/BPI-files/tree/master/others/bpi-service), and as of now the only change lies in the specified board in the `/var/lib/bananapi/board.sh` file.
 
 The directory contains various configuration files and scripts. Based on the file names, it appears that the files are used to configure various system settings such as network interfaces, display settings, and power management. The files in the "etc" directory contain configuration files for various services and programs. The files in the "usr/local/bin" directory contain scripts that likely perform various system tasks such as resetting Bluetooth, patching the Bluetooth firmware, and enabling the Xserver.
 
