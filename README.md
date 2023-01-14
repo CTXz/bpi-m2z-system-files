@@ -18,5 +18,6 @@ The repository contains a install script, which will copy all files to their res
 > Due to this, it is highly recommended to install the files right after a fresh installation of the OS.
 
 To install the files, simply run the following command:
-
-    sudo ./install.sh
+```
+$ sudo ./install.sh
+```
