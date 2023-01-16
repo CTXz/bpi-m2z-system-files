@@ -7,8 +7,8 @@ if [ "$EUID" -ne 0 ]
   exit 1
 fi
 
-cp -v $SCRIPT_DIR/etc /etc
-cp -v $SCRIPT_DIR/usr /usr
-cp -v $SCRIPT_DIR/var /var
+cp -v -r $SCRIPT_DIR/etc /etc
+cp -v -r $SCRIPT_DIR/usr /usr
+cp -v -r $SCRIPT_DIR/var /var
 
 echo "System files installed!"
