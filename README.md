@@ -14,7 +14,7 @@ The primary reason for me to upload these files is, because they're also require
 
 The repository contains a install script, which will copy all files to their respective locations.
 
-> **WARNING:** The install script will overwrite existing files without asking for confirmation. In particular, it will overwrite `/etc/rc.local` which could contain some user defined commands.
+> **WARNING:** The install script will will overwrite some existing file, in particular, it will overwrite `/etc/rc.local` which could contain some user defined commands.
 > Due to this, it is highly recommended to install the files right after a fresh installation of the OS.
 
 To install the files, simply run the following command:
